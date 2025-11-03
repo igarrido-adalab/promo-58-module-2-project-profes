@@ -1,4 +1,10 @@
 .header {
   color: var(--color-text);
   background-color: var(--color-bk-header);
+  display: flex;
+  gap: 0.5em;
+
+  &__logo {
+    height: 2em;
+  }
 }
